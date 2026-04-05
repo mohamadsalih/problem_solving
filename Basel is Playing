@@ -1,1 +1,18 @@
-
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define tc int t; cin>>t; while (t--)
+#define en '\n'
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    ll n;
+    cin>>n;
+    ll x=sqrt(n);
+    if((x*x)==n)
+        cout<<"yes"<<en;
+    else
+        cout<<"no"<<en;
+}
